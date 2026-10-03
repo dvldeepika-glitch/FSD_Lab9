@@ -1,0 +1,21 @@
+function Child({ user }) {
+  return (
+    <div className="child-box">
+      <h4>Child Component</h4>
+
+      <p>
+        <strong>Name:</strong> {user.name}
+      </p>
+
+      <p>
+        <strong>Email:</strong> {user.email}
+      </p>
+
+      <p>
+        <strong>Role:</strong> {user.role}
+      </p>
+    </div>
+  );
+}
+
+export default Child;
